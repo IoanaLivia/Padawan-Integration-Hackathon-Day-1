@@ -1,0 +1,32 @@
+{
+    "project": {
+        "name": "Padawan Integration Hackathon Day 1",
+        "author": "Ioana Livia",
+        "task_id": "22813",
+        "task_name": "IoanaDummyTask_4",
+        "associated_work_item": "AB#22812",
+        "repository": "IoanaLivia/Padawan-Integration-Hackathon-Day-1"
+    },
+    "implementation": {
+        "language": "python",
+        "version": "3.x",
+        "entry_point": "task_implementation.py",
+        "features": [
+            "basic_task_structure",
+            "work_item_integration",
+            "documentation", 
+            "github_actions_workflow",
+            "configuration_management"
+        ]
+    },
+    "integration": {
+        "azure_devops": {
+            "work_item": "AB#22812",
+            "task": "22813"
+        },
+        "github": {
+            "workflow": ".github/workflows/copilot-setup-steps.yml",
+            "branch": "copilot/fix-5124a554-de83-4972-8c0f-c214635c88dd"
+        }
+    }
+}
