@@ -1,0 +1,27 @@
+{
+  "survey_settings": {
+    "title": "Customer Survey",
+    "welcome_message": "Welcome! Please answer the following questions.",
+    "quit_instruction": "Type 'quit' at any time to exit the survey.",
+    "rating_instruction": "For rating questions, use a scale of 1-10.",
+    "completion_message": "Thank you for completing the survey!"
+  },
+  "output_settings": {
+    "response_file_prefix": "survey_responses_",
+    "response_file_extension": "json",
+    "include_timestamp": true,
+    "pretty_print_json": true
+  },
+  "validation_settings": {
+    "rating_min": 1,
+    "rating_max": 10,
+    "required_error_message": "This question is required. Please provide an answer.",
+    "invalid_choice_message": "Invalid choice. Please select from the available options.",
+    "invalid_rating_message": "Please enter a number between 1 and 10."
+  },
+  "display_settings": {
+    "separator_length": 60,
+    "separator_char": "=",
+    "progress_format": "[{current}/{total}]"
+  }
+}
