@@ -1,0 +1,12 @@
+# No external dependencies required
+# This project uses only Python standard library modules:
+# - csv (for CSV file processing)
+# - json (for response data storage)
+# - os (for file system operations)
+# - sys (for command line arguments)
+# - datetime (for timestamps)
+# - typing (for type hints)
+# - collections (for data analysis)
+
+# Python version requirement
+python>=3.6

@@ -1,0 +1,8 @@
+question_id,question_text,question_type,options,required
+demographics_age,What is your age group?,multiple_choice,18-24|25-34|35-44|45-54|55-64|65+,true
+product_rating,How would you rate our product quality?,rating,,true
+features_liked,Which features do you like most? (Select all that apply),multiple_choice,User Interface|Performance|Reliability|Customer Support|Price|Documentation,false
+improvement_areas,What areas need the most improvement?,text,,false
+likelihood_recommend,How likely are you to recommend us?,rating,,true
+contact_permission,Can we contact you for follow-up questions?,yes_no,,false
+additional_feedback,Any other comments or suggestions?,text,,false

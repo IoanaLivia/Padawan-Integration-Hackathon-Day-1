@@ -1,0 +1,5 @@
+question_id,question_text,question_type,options,required
+q1,What is your overall satisfaction with our service?,rating,,true
+q2,Which of the following best describes your experience?,multiple_choice,Excellent|Good|Fair|Poor,true
+q3,Would you recommend our service to others?,yes_no,,true
+q4,Please provide any additional comments or suggestions:,text,,false
