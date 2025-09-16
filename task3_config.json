@@ -1,0 +1,27 @@
+{
+  "task_config": {
+    "name": "Ioana_DummyTask3",
+    "version": "1.0.0",
+    "work_item": {
+      "id": "AB#22812",
+      "url": "https://dev.azure.com/MWITTest/79fb5214-bc55-4bf9-86af-96a2700ed83e/_workitems/edit/22812",
+      "description": "Work item reference for Padawan Integration Hackathon Day 1"
+    },
+    "hackathon": {
+      "name": "Padawan Integration Hackathon Day 1",
+      "author": "Ioana Livia",
+      "task_sequence": 3
+    },
+    "implementation": {
+      "language": "python",
+      "entry_point": "dummy_task3.py",
+      "dependencies": [],
+      "execution_method": "python dummy_task3.py"
+    },
+    "references": {
+      "work_item_integration": true,
+      "ab_reference": "AB#22812",
+      "task_completion_status": "ready"
+    }
+  }
+}
