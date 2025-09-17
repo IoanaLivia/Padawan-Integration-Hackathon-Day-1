@@ -1,0 +1,7 @@
+# No external dependencies required for this MVP
+# The application uses only Python standard library modules:
+# - csv (for CSV file handling)
+# - sys (for command line arguments)
+# - os (for file operations)
+# - typing (for type hints)
+# - datetime (for timestamps)

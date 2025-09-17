@@ -1,0 +1,9 @@
+question_id,question_text,question_type,options
+q1,What is your name?,text,
+q2,How old are you?,number,
+q3,What is your favorite color?,multiple_choice,"Red,Blue,Green,Yellow,Purple"
+q4,Do you enjoy programming?,yes_no,
+q5,What programming language do you prefer?,multiple_choice,"Python,JavaScript,Java,C++,Other"
+q6,How many years of programming experience do you have?,number,
+q7,Are you satisfied with this survey tool?,yes_no,
+q8,Any additional comments?,text,
